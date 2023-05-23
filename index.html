@@ -8,74 +8,79 @@
   </head>
 
   <body>
-    <header class="main-header">
-      <div class="container">
-        <nav class="navigation">
-          <a class="header-logo" href="index.html">
-            <img src="" alt="Логотип магазина мороженного Глэйси" width="137" height="56">
-            <span class="visually-hidden">На главную</span>
-          </a>
-          <ul class="main-nav">
-            <li class="nav-item">
-              <a href="catalog.html">
-                <svg></svg>
-                Каталог
-              </a>
-              <ul class="dropdown">
-                <li class="dropdown-item"><b>Новинки</b></li><!--Добавить в стили border-bottom:  1px solid #B9B9B9;-->
-                <li class="dropdown-item"><a href="#">Сливочное</a></li>
-                <li class="dropdown-item"><a href="#">Щербеты</a></li>
-                <li class="dropdown-item"><a href="#">Фруктовый лед</a></li>
-                <li class="dropdown-item"><a href="#">Мелорин</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a href="#">Доставка и оплата</a>
-            </li>
-            <li class="nav-item">
-              <a href="#">О компании</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="user-navbar">
-          <a href="tel:+78005558628">+7 (800) 555-86-28</a>
-          <div class="site-search">
-            <a class="search-link" href="#">Поиск</a>
-            <div class="search-form">
-              <label class="visually-hidden" for="search">Поиск</label>
-              <input class="visually-hidden" type="search" name="search" id="search" placeholder="Поиск по сайту">
-              <button class="visually-hidden" type="button">Найти</button>
+    <div class="main-wrapper">
+      <header class="main-header">
+        <div class="container">
+          <nav class="navigation">
+            <a class="header-logo" href="index.html">
+              <img src="" alt="Логотип магазина мороженного Глэйси" width="137" height="56">
+              <span class="visually-hidden">На главную</span>
+            </a>
+            <ul class="main-nav">
+              <li class="nav-item">
+                <a href="catalog.html">
+                  <svg></svg>
+                  Каталог
+                </a>
+                <ul class="dropdown">
+                  <li class="dropdown-item"><b>Новинки</b></li>
+                  <!--Добавить в стили border-bottom:  1px solid #B9B9B9;-->
+                  <li class="dropdown-item"><a href="#">Сливочное</a></li>
+                  <li class="dropdown-item"><a href="#">Щербеты</a></li>
+                  <li class="dropdown-item"><a href="#">Фруктовый лед</a></li>
+                  <li class="dropdown-item"><a href="#">Мелорин</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#">Доставка и оплата</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">О компании</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="user-navbar">
+            <a href="tel:+78005558628">+7 (800) 555-86-28</a>
+            <div class="site-search">
+              <a class="search-link" href="#">Поиск</a>
+              <div class="search-form">
+                <label class="visually-hidden" for="search">Поиск</label>
+                <input class="visually-hidden" type="search" name="search" id="search" placeholder="Поиск по сайту">
+                <button class="visually-hidden" type="button">Найти</button>
+              </div>
+            </div>
+            <!--Попап Логин-->
+            <div class="site-login">
+              <a class="login-link" href="#">Вход</a>
+              <form class="login-form" action="" method="">
+                <p class="login-item">
+                  <label class="visually-hidden" for="email">Ваш логин или E-mail</label>
+                  <input class="input-text" type="email" name="email" id="email" placeholder="email@example.com">
+                </p>
+                <p class="login-item">
+                  <label class="visually-hidden" for="password">Ваш пароль</label>
+                  <input class="input-text" type="password" name="pass
+                " id="password" placeholder="••••••">
+                </p>
+                <button class="button login-button" type="submit">Войти</button>
+                <p class="login-help">
+                  <a class="login-help-link" href="#">Забыли пароль?</a>
+                  <a class="login-help-link" href="#">Регистрация</a>
+                </p>
+              </form>
+            </div>
+            <!--Попап Корзина 1-->
+            <div class="recycle-bin">
+              <a class="recycle-bin-link" href="#">Нет товаров</a>
+              <form class="recycle-bin-form" action="" method="">
+                <span class="recycle-bin-item">Ваша корзина пока пуста</span>
+              </form>
             </div>
           </div>
-          <!--Попап Логин-->
-          <div class="site-login">
-            <a class="login-link" href="#">Вход</a>
-            <form class="login-form" action="" method="">
-              <p class="login-item">
-                <label class="visually-hidden" for="email">Ваш логин или E-mail</label>
-                <input class="input-text" type="email" name="email" id="email" placeholder="email@example.com">
-              </p>
-              <p class="login-item">
-                <label class="visually-hidden" for="password">Ваш пароль</label>
-                <input class="input-text" type="password" name="pass
-                " id="password" placeholder="••••••">
-              </p>
-              <button class="button login-button" type="submit">Войти</button>
-              <p class="login-help">
-                <a class="login-help-link" href="#">Забыли пароль?</a>
-                <a class="login-help-link" href="#">Регистрация</a>
-              </p>
-            </form>
-          </div>
-          <!--Попап Корзина 1-->
-          <div class="recycle-bin">
-            <a class="recycle-bin-link" href="#">Нет товаров</a>
-            <form class="recycle-bin-form" action="" method="">
-              <span class="recycle-bin-item">Ваша корзина пока пуста</span>
-            </form>
-          </div>
-        </div>
-    </header>
+      </header>
+      <main></main>
+      <footer></footer>
+    </div>
   </body>
 
 </html>
