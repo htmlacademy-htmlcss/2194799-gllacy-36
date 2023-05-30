@@ -227,7 +227,33 @@
             </form>
           </div>
         </div>
-        <section class="delivery"></section>
+
+        <section class="delivery">
+          <div class="delivery-about">
+          <h2 class="delivery-heading heading">Доставка любимого мороженого на дом</h2>
+          <p class="delivery-description">Хочется полакомиться любимым десертом,<br> но нет времени съездить в магазин?
+            Закажите<br> доставку мороженого на дом, и курьер<br> привезёт вам ваш заказ в течение часа!</p>
+          </div>
+          <div class="delivery-window">
+            <h2 class="visually-hidden">Заказать доставку</h2>
+            <p class="delivery-window-info">Укажите адрес и дату доставки, и мы свяжемся<br> с вами, чтобы подтвердить заказ.</p>
+            <form class="delivery-form" action="https://echo.htmlacademy.ru/" method="post">
+              <p class="field-group delivery-form-date">
+                <label class="form-label" for="delivery-date">Дата</label>
+              <input class="delivery-form-input" name="delivery-data" type="text" placeholder="01.04.2020" required>
+              </p>
+              <p class="field-group delivery-form-phone">
+                <label class="form-label" for="delivery-phone">Телефон</label>
+              <input class="delivery-form-input" name="delivery-phone" type="text" placeholder="+7 800 999-00-00" required>
+              </p>
+              <p class="field-group delivery-form-address">
+                <label class="form-label" for="delivery-address">Телефон</label>
+              <input class="delivery-form-input" name="delivery-address" type="text" placeholder="ул. Большая Конюшенная, 19/8" required>
+              </p>
+              <button class="delivery-form-button button" type="submit">Отправить</button>
+            </form>
+          </div>
+        </section>
         <section class="contacts"></section>
       </main>
       <footer></footer>
