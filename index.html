@@ -230,25 +230,49 @@
 
         <section class="delivery">
           <div class="delivery-about">
-          <h2 class="delivery-heading heading">Доставка любимого мороженого на дом</h2>
-          <p class="delivery-description">Хочется полакомиться любимым десертом,<br> но нет времени съездить в магазин?
-            Закажите<br> доставку мороженого на дом, и курьер<br> привезёт вам ваш заказ в течение часа!</p>
+            <h2 class="delivery-heading heading">Доставка любимого мороженого на дом</h2>
+            <p class="delivery-description">Хочется полакомиться любимым десертом,<br> но нет времени съездить в
+              магазин?
+              Закажите<br> доставку мороженого на дом, и курьер<br> привезёт вам ваш заказ в течение часа!</p>
           </div>
           <div class="delivery-window">
             <h2 class="visually-hidden">Заказать доставку</h2>
-            <p class="delivery-window-info">Укажите адрес и дату доставки, и мы свяжемся<br> с вами, чтобы подтвердить заказ.</p>
+            <p class="delivery-window-info">Укажите адрес и дату доставки, и мы свяжемся<br> с вами, чтобы подтвердить
+              заказ.</p>
             <form class="delivery-form" action="https://echo.htmlacademy.ru/" method="post">
               <p class="field-group delivery-form-date">
-                <label class="form-label" for="delivery-date">Дата</label>
-              <input class="delivery-form-input" name="delivery-data" type="text" placeholder="01.04.2020" required>
+                <span class="form-label">
+                  <label class="form-label" for="delivery-date">Дата</label>
+                  <span class="tooltip">
+                    <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date">
+                      <svg class="tooltip-icon" xmlns="" width="" height="" fill="">
+                        <path d=""></path>
+                      </svg>
+                    </button>
+                    <span class="tooltip-text" role="tooltip"  id="tooltip-label-date">Укажите желаемую дату и мы свяжемся с вами для подтвеждения заказа</span>
+                  </span>
+                </span>
+                <input class="delivery-form-input" name="delivery-data" type="text" placeholder="01.04.2020" required>
               </p>
               <p class="field-group delivery-form-phone">
                 <label class="form-label" for="delivery-phone">Телефон</label>
-              <input class="delivery-form-input" name="delivery-phone" type="text" placeholder="+7 800 999-00-00" required>
+                <input class="delivery-form-input" name="delivery-phone" type="text" placeholder="+7 800 999-00-00"
+                  required>
               </p>
               <p class="field-group delivery-form-address">
-                <label class="form-label" for="delivery-address">Телефон</label>
-              <input class="delivery-form-input" name="delivery-address" type="text" placeholder="ул. Большая Конюшенная, 19/8" required>
+                <span class="form-label">
+                  <label class="form-label" for="delivery-address">Адрес</label>
+                  <span class="tooltip">
+                    <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date">
+                      <svg class="tooltip-icon" xmlns="" width="" height="" fill="">
+                        <path d=""></path>
+                      </svg>
+                    </button>
+                    <span class="tooltip-text" role="tooltip"  id="tooltip-label-date">Укажите желаемый адрес и мы свяжемся с вами для подтвеждения заказа</span>
+                  </span>
+                </span>
+                <input class="delivery-form-input" name="delivery-address" type="text"
+                  placeholder="ул. Большая Конюшенная, 19/8" required>
               </p>
               <button class="delivery-form-button button" type="submit">Отправить</button>
             </form>
