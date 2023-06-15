@@ -32,9 +32,25 @@ html {
   height: 100%;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  /*width: ;*/
+  color: #565C66;
+  background-color: #FEAFC3;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
 .main-wrapper {
   background-color: #FEAFC3;
 }
+
+
 
 .main-header {}
 
