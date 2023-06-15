@@ -52,13 +52,14 @@ body {
 
 
 
-.main-header {
-  height: 104px;
-}
+.main-header {}
 
 .container {}
 
-.navigation {}
+.navigation {
+  display: flex;
+  max-height: 104px;
+}
 
 .header-logo {}
 
