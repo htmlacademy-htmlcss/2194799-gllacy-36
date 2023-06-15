@@ -42,7 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  /*width: ;*/
+  width: 1170px;
 }
 
 
@@ -52,7 +52,9 @@ body {
 
 
 
-.main-header {}
+.main-header {
+  height: 104px;
+}
 
 .container {}
 
