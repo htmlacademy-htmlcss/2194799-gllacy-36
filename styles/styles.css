@@ -58,6 +58,10 @@ body {
 .features {
   background-image: url(/images/index/pattern_background.jpg);
 }
+.features-direction {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
 
 .news {
   background-image: url(/images/index/news_background.jpg);
