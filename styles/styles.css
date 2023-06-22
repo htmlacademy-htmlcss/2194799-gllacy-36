@@ -54,3 +54,7 @@ body {
 .ice-cream-ball {
   border-radius: 50%;
 }
+
+.features {
+  background-image: url(/images/index/pattern_background.jpg);
+}
