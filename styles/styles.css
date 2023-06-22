@@ -50,3 +50,7 @@ body {
 .main-wrapper {
   background-color: #FEAFC3;
 }
+
+.ice-cream-ball {
+  border-radius: 50%;
+}
