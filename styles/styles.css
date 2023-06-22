@@ -57,6 +57,7 @@ body {
 
 .features {
   background-image: url(/images/index/pattern_background.jpg);
+  border-radius: 16px;
 }
 .features-direction {
   background-color: #ffffff;
