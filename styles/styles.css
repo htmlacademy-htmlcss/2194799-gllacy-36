@@ -58,3 +58,19 @@ body {
 .features {
   background-image: url(/images/index/pattern_background.jpg);
 }
+
+.news {
+  background-image: url(/images/index/news_background.jpg);
+}
+
+.subscribe-news {
+  background-image: url(/images/index/subscribe_background.jpg);
+}
+
+.delivery {
+  background-image: url(/images/index/delivery_background.jpg);
+}
+
+.contacts {
+  background-image: url(/images/index/contacts_background.jpg);
+}
