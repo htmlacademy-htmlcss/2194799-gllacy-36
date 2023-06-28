@@ -95,6 +95,6 @@ body {
 
 .index-columns {
   display: grid;
-  grid-template-columns: 570px;
+  grid-template-columns: 570px 570px;
   gap: 30px;
 }
