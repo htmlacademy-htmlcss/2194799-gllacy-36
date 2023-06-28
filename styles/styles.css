@@ -67,16 +67,32 @@ body {
 
 .news {
   background-image: url(/images/index/news_background.jpg);
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  min-width: 570px;
 }
 
 .subscribe-news {
   background-image: url(/images/index/subscribe_background.jpg);
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  min-width: 570px;
 }
 
 .delivery {
   background-image: url(/images/index/delivery_background.jpg);
+  background-repeat: no-repeat;
+  border-radius: 16px;
 }
 
 .contacts {
   background-image: url(/images/index/contacts_background.jpg);
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+
+.index-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
