@@ -91,10 +91,29 @@ body {
   border-radius: 16px;
 }
 
+
+
+
+
+
+
+
 .index-columns {
   display: grid;
   grid-template-columns: 570px 570px;
   gap: 30px;
+}
+
+.subscribe-news-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  background-color: white;
+  border-radius: 16px;
+  margin: 6px;
 }
 
 .visually-hidden {
