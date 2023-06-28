@@ -69,7 +69,6 @@ body {
   background-image: url(/images/index/news_background.jpg);
   background-repeat: no-repeat;
   border-radius: 16px;
-  min-width: 570px;
   min-height: 224px;
 }
 
@@ -77,7 +76,6 @@ body {
   background-image: url(/images/index/subscribe_background.jpg);
   background-repeat: no-repeat;
   border-radius: 16px;
-  min-width: 570px;
   min-height: 224px;
 }
 
