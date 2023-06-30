@@ -106,7 +106,7 @@ body {
 
 .delivery-window {
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: #FCFCFC;
   box-shadow: 0 15px 40px 0 rgba(45, 52, 64, 0.12);
   min-width: 500px;
   min-height: 406px;
@@ -128,7 +128,7 @@ body {
 .contacts-wrapper {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #FCFCFC;
   border-radius: 16px;
   box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.12);
   max-width: 343px;
