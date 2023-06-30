@@ -98,7 +98,7 @@ body {
 
 .delivery-window {
   border-radius: 8px;
-  background-color: white;
+  background-color: #ffffff;
   min-width: 500px;
   min-height: 406px;
   margin-top: 64px;
@@ -110,11 +110,19 @@ body {
   background-image: url(/images/index/contacts_background.jpg);
   background-repeat: no-repeat;
   background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
   border-radius: 16px;
-  min-height: 492px;
+  padding: 64px;
 }
 
-
+.contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 16px;
+  max-width: 343px;
+}
 
 
 
