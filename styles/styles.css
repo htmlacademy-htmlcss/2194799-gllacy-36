@@ -48,7 +48,6 @@ body {
   width: 1170px;
 }
 
-
 .main-wrapper {
   background-color: #FEAFC3;
 }
@@ -70,6 +69,15 @@ body {
   border-radius: 16px;
 }
 
+
+.index-columns {
+  display: grid;
+  grid-template-columns: 570px 570px;
+  gap: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
 .news {
   background-image: url(/images/index/news_background.jpg);
   background-repeat: no-repeat;
@@ -88,6 +96,19 @@ body {
   background-position: center;
   border-radius: 16px;
   min-height: 224px;
+}
+
+.subscribe-news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin: 6px;
 }
 
 .delivery {
@@ -136,29 +157,6 @@ body {
 
 
 
-
-
-
-.index-columns {
-  display: grid;
-  grid-template-columns: 570px 570px;
-  gap: 30px;
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
-.subscribe-news-container {
-  display: flex;
-  flex-direction: column;
-  gap: 42px;
-  padding-left: 26px;
-  padding-right: 26px;
-  padding-top: 26px;
-  padding-bottom: 26px;
-  background-color: #ffffff;
-  border-radius: 16px;
-  margin: 6px;
-}
 
 .visually-hidden {
   position: absolute;
