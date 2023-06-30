@@ -99,6 +99,7 @@ body {
 .delivery-window {
   border-radius: 8px;
   background-color: #ffffff;
+  box-shadow: 0 15px 40px 0 rgba(45, 52, 64, 0.12);
   min-width: 500px;
   min-height: 406px;
   margin-top: 64px;
