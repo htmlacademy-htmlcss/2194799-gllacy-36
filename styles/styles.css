@@ -142,6 +142,7 @@ body {
 .subscribe-news-container {
   display: flex;
   flex-direction: column;
+  gap: 42px;
   padding-left: 26px;
   padding-right: 26px;
   padding-top: 26px;
