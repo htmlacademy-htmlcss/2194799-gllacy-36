@@ -60,6 +60,8 @@ body {
 .features {
   background-image: url(/images/index/pattern_background.jpg);
   background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
   border-radius: 16px;
 }
 
@@ -72,6 +74,8 @@ body {
   background-image: url(/images/index/news_background.jpg);
   background-repeat: no-repeat;
   background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
   border-radius: 16px;
   min-height: 224px;
 }
@@ -80,6 +84,8 @@ body {
   background-image: url(/images/index/subscribe_background.jpg);
   background-repeat: no-repeat;
   background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
   border-radius: 16px;
   min-height: 224px;
 }
@@ -88,6 +94,8 @@ body {
   background-image: url(/images/index/delivery_background.jpg);
   background-repeat: no-repeat;
   background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
   border-radius: 16px;
   display: flex;
   justify-content: space-evenly;
